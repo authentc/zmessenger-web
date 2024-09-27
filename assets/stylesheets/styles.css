@@ -65,7 +65,18 @@ body {
   font-family: var(--font-default);
   color: var(--text-color);
   background: var(--theme-color);
-  transition: 0.5s background ease;
+  transition: 1s background ease;
+}
+
+.test12{
+  color: red;
+  background: yellow;
+  height: 200px;
+  width: 100px;
+}
+
+.back{
+  background-color: white;
 }
 
 body.dark {
@@ -1033,6 +1044,14 @@ section {background: var(--light-color);}
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: var(--color-primary);
 }
+.test{
+  border-color: white;
+  color: white;
+  margin-top: 100px;
+  background-color: white;
+}
+
+
 
 
 /*--------------------------------------------------------------
