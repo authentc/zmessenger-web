@@ -1296,7 +1296,7 @@ section {background: var(--light-color);}
 .team .member {
   text-align: center;
   border-radius: 10px;
-  padding: 1px;
+  padding: 10px;
   overflow: hidden;
 }
 
