@@ -467,7 +467,7 @@ img:hover {
 .header.stikcy-menu {
   background: var(--light-color);
 }
-.header.stikcy-menu .logo h1{
+.header.stikcy-menu .logo {
   color: var(--color-primary);
 }
 
