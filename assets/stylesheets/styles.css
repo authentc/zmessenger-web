@@ -17,21 +17,21 @@
   --font-secondary:
   'Poppins', sans-serif;
   scroll-behavior: smooth;
-  --color-bg: #025add;
+  --color-bg: #d75d0c;
   --hero-overlay-color: transparent;
   --menu-color: #ffffff;
-  --theme-color: #025add;
+  --theme-color: #d75d0c;
   --border-color: #e2e2e2;
   --theme-color-dark: #f8f8f8;
   --text-color: #3a3a3a;
   --hero-text-color: #ffffff;
   --text-white-color: #ffffff;
   --text-grey-color: #3a3a3a;
-  --text-theme-color: #025add;
+  --text-theme-color:#d75d0c;
   --light-color: #ffffff;
   --color-default: #3a3a3a;
-  --color-primary: #025add;
-  --color-secondary: #0c6de0;
+  --color-primary: #d75d0c;
+  --color-secondary: #ce4320;
   --color-start: #3a3a3a;
   --color-end: #3a3a3a;
   --hero-card-bg: rgb(228 227 223 / 17%);
