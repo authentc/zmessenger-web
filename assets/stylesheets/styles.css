@@ -1594,9 +1594,10 @@ section {background: var(--light-color);}
 }
 
 .hero p {
-  color: var(--text-color);
-  font-weight: 400;
-  margin-bottom: 30px;
+  color: white;
+font-weight: 400;
+margin-bottom: 30px;
+
 }
 
 .btn-get-started {
