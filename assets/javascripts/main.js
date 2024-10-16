@@ -52,37 +52,47 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('scroll', headerFixed);
   }
 
-  /**
-     * Logo change when scrol 
-     */
+  // const scrollTop2 = document.querySelector('#header');
+  // if (scrollTop2) {
+  //   const togglescrollTop = function() {
+  //     window.scrollY > 50 ? scrollTop2.classList.add('stikcy-menu') : scrollTop2.classList.remove('stikcy-menu');
+  //   }
+  //   window.addEventListener('load', togglescrollTop);
+  //   document.addEventListener('scroll', togglescrollTop);
+  //   scrollTop2.addEventListener('click', window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth'
+  //   }));
+  // }
+
 
   const scrollTop2 = document.querySelector('#header');
   const logo = document.querySelector('#logo');
-  const defaultLogo = 'assets/images/logo2.png';
+  const defaultLogo = 'assets/images/logo2.png'; 
   const stickyLogo = 'assets/images/logo.png';
 
   if (scrollTop2) {
     const togglescrollTop = function () {
       if (window.scrollY > 50) {
         scrollTop2.classList.add('stikcy-menu');
-        logo.src = stickyLogo;
+        logo.src = stickyLogo; 
       } else {
         scrollTop2.classList.remove('stikcy-menu');
-        logo.src = defaultLogo;
+        logo.src = defaultLogo; 
       }
-
-      window.addEventListener('load', togglescrollTop);
-      document.addEventListener('scroll', togglescrollTop);
-
-      scrollTop2.addEventListener('click', function () {
-        window.scrollTo({
-          top: 0,
-          behavior: 'smooth'
-        });
-      });
     }
 
-  
+    window.addEventListener('load', togglescrollTop);
+    document.addEventListener('scroll', togglescrollTop);
+
+    scrollTop2.addEventListener('click', function () {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    });
+  }
+
   /**
    * Navbar links active state on scroll
    */
