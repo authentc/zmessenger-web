@@ -1090,5 +1090,74 @@
   <script src="assets/javascripts/main.js"></script>
 
 
-
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <style>
+        
+        .float-wrapper{
+          position: absolute;
+          right: 0;
+          top: 45%;
+          transform: translateY(-50%);
+        }
+        .floats{
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .floats li i{
+          font-size: 20px;
+          transition: 0.3s;
+          color: #fff;
+        }
+        .floats li{
+          background-color: #000;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50px;
+          width: 45px;
+          height: 45px;
+          cursor: pointer;
+          position: relative;
+          margin: 2px 0;
+          transition: 0.3s;
+        }
+        .floats li:nth-child(1){
+          background-color:#3b5998 ;
+        }
+        .floats li:nth-child(2){
+          background-color: #8a3ab9;
+        }
+        .floats li:nth-child(3){
+          background-color:#0077b5 ;
+        }
+        .floats li:nth-child(4){
+          background-color:#ff0000 ;
+        }
+        .floats li:hover{
+          transform: translateX(-15px);
+        }
+        .floats li:hover i{
+          transform: rotate(360deg);
+        }
+      </style>
+    </head>
+    <body>
+      <div class="float-wrapper">
+        <ul class="floats">
+          <li><i class="fa-brands fa-facebook-f"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-linkedin-in"></i></li>
+          <li><i class="fa-brands fa-youtube"></i></li>    
+        </ul>
+      </div>
+    </body>
+    
 </body></html>
