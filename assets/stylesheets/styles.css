@@ -1531,15 +1531,23 @@ section {background: var(--light-color);}
 
 @keyframes bgCycle {
   0%, 33.33% {
-    background: url(../images/hero-bg1.png) center center no-repeat;
+    background: url(../images/adstudio1.png.jpg) center center no-repeat;
     background-size: cover;
   }
   33.34%, 66.66% {
-    background: url(../images/features.jpg) center center no-repeat;
+    background: url(../images/bd2win.png.jpg) center center no-repeat;
     background-size: cover;
   }
   66.67%, 100% {
     background: url(../images/hero-bg.png) center center no-repeat;
+    background-size: cover;
+  }
+  66.67%, 100% {
+    background: url(../images/adstudio1.png.jpg) center center no-repeat;
+    background-size: cover;
+  }
+  66.67%, 100% {
+    background: url(../images/adstudio\ \(2\).jpg) center center no-repeat;
     background-size: cover;
   }
 }
